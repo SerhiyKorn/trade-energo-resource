@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./Components/Navbar";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "bootstrap-css-only/css/bootstrap.min.css";
+import "mdbreact/dist/css/mdb.css";
+import { MDBContainer } from "mdbreact";
+import Main from "./pages/Main";
+import Jumbo from "./Components/Jumbo";
+import Footer from "./Components/Footer";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import NormBase from "./pages/NormBase";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar></Navbar>
+      <Jumbo></Jumbo>
+      <div>
+        <MDBContainer>
+          <Switch>
+            <Route path="/" exact component={Main} />
+            <Route path="/normbase" component={NormBase} />
+          </Switch>
+        </MDBContainer>
+        <Footer></Footer>
+      </div>
+    </Router>
   );
 }
 
