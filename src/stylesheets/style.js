@@ -4,20 +4,28 @@ export const NavStyles = styled.div`
   .bigger-brand {
     font-size: 2.5rem;
   }
-  .nav-font-adjust {
-    font-size: 1.4rem;
-  }
-  .border-underlined {
-    -webkit-box-shadow: 0px 6px 6px #d8d8d8;
-    -moz-box-shadow: 0px 6px 6px #d8d8d8;
-    box-shadow: 0px 6px 6px #d8d8d8;
-  }
 
+  .nav-item-adjust {
+  }
   .nav-link-adjust {
     &:hover {
         text-decoration: none;
     }
   }
+  .navbar .nav-item .nav-link {
+    display: flex;
+}
+.dropdown-toggle::after {
+  margin-top: 15px;
+}
+.nav-item:hover {
+  background-color: #ececec;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.nav-item {
+  transition: 0.3s;
+}
 `;
 
 export const CarouselStyles = styled.div`
@@ -54,6 +62,9 @@ export const MapStyles = styled.div`
   width: '200px' !important;
   height: '150px' !important;
   border-radius: '25px'
+}
+.map-page {
+  width: 100%;
 }
 `
 

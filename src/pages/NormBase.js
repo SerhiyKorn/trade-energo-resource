@@ -18,11 +18,7 @@ class NormBase extends Component {
     }));
 
   render() {
-    return (<div className="mt-4 mb-4">
-            <div className="text-center">
-      <h2 className="text-center mt-3">Нормативна база</h2>
-      <hr className="mb-4" />
-      </div>
+    return (<div className="p-5">
       {services.map((elem, i) => (<MDBContainer key={i} className="accordion md-accordion accordion-1">
           <MDBCardHeader
             onClick={this.toggleCollapse(`collapse${i + 1}`)}
@@ -41,7 +37,7 @@ class NormBase extends Component {
             />
           </MDBCardHeader>
           <MDBCollapse id={`collapse${i + 1}`} isOpen={this.state.collapseID}>
-            <MDBCardBody className="pt-0">
+            <MDBCardBody className="pt-3">
               <ul>
                 {elem.list.map((service,i) => (<li key={i}><a href={service.adress}>{service.name}</a></li>))}
               </ul>
