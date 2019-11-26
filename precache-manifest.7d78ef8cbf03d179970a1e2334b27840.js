@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ddcbb173c64885987a879c98a7d72adc",
+    "revision": "2b55641db7fa2c3783129f3ac8de4561",
     "url": "/trade-energo-resource/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/trade-energo-resource/static/js/2.25665ff9.chunk.js"
   },
   {
-    "revision": "fc14c6d180e1e22e0b7c",
-    "url": "/trade-energo-resource/static/js/main.532efe23.chunk.js"
+    "revision": "58efe27dc868ad55bbe8",
+    "url": "/trade-energo-resource/static/js/main.44150bdc.chunk.js"
   },
   {
     "revision": "73fc9024dc5dd0af9490",
