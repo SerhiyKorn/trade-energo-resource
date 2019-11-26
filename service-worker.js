@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/trade-energo-resource/precache-manifest.8a80f0c3fba0b8c47db58f27fdff541b.js"
+  "/trade-energo-resource/precache-manifest.23843b9732f12030d3a2850721edbd70.js"
 );
 
 self.addEventListener('message', (event) => {
