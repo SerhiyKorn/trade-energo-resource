@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/trade-energo-resource/static/js/main.8613c2af.chunk.js",
-    "main.js.map": "/trade-energo-resource/static/js/main.8613c2af.chunk.js.map",
+    "main.js": "/trade-energo-resource/static/js/main.c617648c.chunk.js",
+    "main.js.map": "/trade-energo-resource/static/js/main.c617648c.chunk.js.map",
     "runtime-main.js": "/trade-energo-resource/static/js/runtime-main.5c05a351.js",
     "runtime-main.js.map": "/trade-energo-resource/static/js/runtime-main.5c05a351.js.map",
     "static/css/2.c799ef99.chunk.css": "/trade-energo-resource/static/css/2.c799ef99.chunk.css",
     "static/js/2.25665ff9.chunk.js": "/trade-energo-resource/static/js/2.25665ff9.chunk.js",
     "static/js/2.25665ff9.chunk.js.map": "/trade-energo-resource/static/js/2.25665ff9.chunk.js.map",
     "index.html": "/trade-energo-resource/index.html",
-    "precache-manifest.92ef6392a670d1c1684fac8219305949.js": "/trade-energo-resource/precache-manifest.92ef6392a670d1c1684fac8219305949.js",
+    "precache-manifest.a33a34d1fe4336bf01138c9b7bc54f05.js": "/trade-energo-resource/precache-manifest.a33a34d1fe4336bf01138c9b7bc54f05.js",
     "service-worker.js": "/trade-energo-resource/service-worker.js",
     "static/css/2.c799ef99.chunk.css.map": "/trade-energo-resource/static/css/2.c799ef99.chunk.css.map",
     "static/media/Jumbo-1.jpg": "/trade-energo-resource/static/media/Jumbo-1.f63e1c1d.jpg",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.5c05a351.js",
     "static/css/2.c799ef99.chunk.css",
     "static/js/2.25665ff9.chunk.js",
-    "static/js/main.8613c2af.chunk.js"
+    "static/js/main.c617648c.chunk.js"
   ]
 }
