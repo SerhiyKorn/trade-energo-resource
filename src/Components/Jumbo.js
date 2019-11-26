@@ -10,7 +10,8 @@ import {
 } from "react-router-dom";
 import url from '../libs/url.json'
 const Jumbo = () => {
-  const {pathname} = useLocation();
+  const pathname = useLocation().pathname.split('/')[2];
+  console.log(pathname);
   const jumb1 = require(`../images/Jumbo-${Math.ceil(Math.random() * 3)}.jpg`);
   return (
     <JumbStyles>

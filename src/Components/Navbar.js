@@ -31,12 +31,12 @@ const Navbar = () => {
         <MDBCollapse id="navbarCollapse3" isOpen={isOpen} navbar>
           <MDBNavbarNav>
             <MDBNavItem>
-              <MDBNavLink to="/">
+              <MDBNavLink to="/trade-energo-resource/">
                 <h4 className="h4-responsive mt-1">Головна</h4>
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/normbase">
+              <MDBNavLink to="/trade-energo-resource/normbase">
                 <h4 className="h4-responsive mt-1">Нормативна База</h4>
               </MDBNavLink>
             </MDBNavItem>
@@ -58,7 +58,7 @@ const Navbar = () => {
               </MDBDropdown>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/contacts">
+              <MDBNavLink to="/trade-energo-resource/contacts">
                 <h4 className="h4-responsive mt-1">Контакти</h4>
               </MDBNavLink>
             </MDBNavItem>

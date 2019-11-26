@@ -19,9 +19,9 @@ function App() {
       <div>
         <MDBContainer>
           <Switch>
-            <Route path="/" exact component={Main} />
-            <Route path="/normbase" component={NormBase} />
-            <Route path="/contacts" component={Contacts} />
+            <Route path="/trade-energo-resource/" exact component={Main} />
+            <Route path="/trade-energo-resource/normbase" component={NormBase} />
+            <Route path="/trade-energo-resource/contacts" component={Contacts} />
           </Switch>
         </MDBContainer>
         <Footer></Footer>
