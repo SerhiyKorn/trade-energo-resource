@@ -7,7 +7,7 @@ import { MDBContainer } from "mdbreact";
 import Main from "./pages/Main";
 import Jumbo from "./Components/Jumbo";
 import Footer from "./Components/Footer";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import NormBase from "./pages/NormBase";
 import Contacts from "./pages/Contacts";
 
@@ -19,9 +19,9 @@ function App() {
       <div>
         <MDBContainer>
           <Switch>
-            <Route path="/trade-energo-resource/" exact component={Main} />
-            <Route path="/trade-energo-resource/normbase" component={NormBase} />
-            <Route path="/trade-energo-resource/contacts" component={Contacts} />
+            <Route path={"/"} exact component={Main} />
+            <Route path={"/normbase"} component={NormBase} />
+            <Route path={"/contacts"} component={Contacts} />
           </Switch>
         </MDBContainer>
         <Footer></Footer>

@@ -25,18 +25,18 @@ const Navbar = () => {
     <NavStyles>
       <MDBNavbar light color="white" expand="lg" className="p-4">
         <MDBNavbarBrand>
-          <h2 className="h2-responsive">Трейд Енерго Ресурс</h2>
+          <h2 className="font-weight-bold h2-responsive">Трейд Енерго Ресурс</h2>
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={toggleCollapse}/>
         <MDBCollapse id="navbarCollapse3" isOpen={isOpen} navbar>
           <MDBNavbarNav>
             <MDBNavItem>
-              <MDBNavLink to="/trade-energo-resource/">
+              <MDBNavLink to="/">
                 <h4 className="h4-responsive mt-1">Головна</h4>
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/trade-energo-resource/normbase">
+              <MDBNavLink to="/normbase">
                 <h4 className="h4-responsive mt-1">Нормативна База</h4>
               </MDBNavLink>
             </MDBNavItem>
@@ -58,7 +58,7 @@ const Navbar = () => {
               </MDBDropdown>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/trade-energo-resource/contacts">
+              <MDBNavLink to="/contacts">
                 <h4 className="h4-responsive mt-1">Контакти</h4>
               </MDBNavLink>
             </MDBNavItem>

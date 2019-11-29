@@ -39,7 +39,7 @@ class NormBase extends Component {
           <MDBCollapse id={`collapse${i + 1}`} isOpen={this.state.collapseID}>
             <MDBCardBody className="pt-3">
               <ul>
-                {elem.list.map((service,i) => (<li key={i}><a href={service.adress}>{service.name}</a></li>))}
+                {elem.list.map((service,i) => (<li key={i}><a target="_blank" rel="noopener noreferrer" href={service.adress}>{service.name}</a></li>))}
               </ul>
             </MDBCardBody>
           </MDBCollapse>
